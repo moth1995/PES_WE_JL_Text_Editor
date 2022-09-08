@@ -1,0 +1,26 @@
+Gui:
+    Game Name: "Pro Evolution Soccer 2008 - SLES_549.13"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 309
+SLXX Offsets:
+    Teams Offsets Table: 3161904
+    Teams Table Size: 5296
+    Teams Text Data Size: 7752
+
+    Nationalities Offsets Table: 3169872
+    Nationalities Table Size: 976
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 1192128
+    Stadiums Offsets Table 2: 2428656
+    Leagues Offsets Table 1: 1194368
+    Leagues Offsets Table 2: 2430896
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"
