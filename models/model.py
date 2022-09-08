@@ -89,20 +89,19 @@ class Model():
         total_callnames, total_groups, special_callnames, letter_groups = struct.unpack("<4H", file_bytes[32:40])
         start_offset = 40
         record_size = lenght + 8
-        for callname in range(total_callnames):
-            return [
-                Callname(
-                    callname,
-                    file_bytes[
-                        start_offset + (callname * record_size)
-                        :
-                        start_offset + (callname * record_size) + record_size
-                    ],
-                    lenght,
-                    encoding,
-                )
-                for callname in range(total_callnames)
-            ]
+        return [
+            Callname(
+                callname,
+                file_bytes[
+                    start_offset + (callname * record_size)
+                    :
+                    start_offset + (callname * record_size) + record_size
+                ],
+                lenght,
+                encoding,
+            )
+            for callname in range(total_callnames)
+        ]
 
     def write_team_names(self, teams:"list[Team]", base_address:int, start_offset:int, offsets_table:int, data_size:int, file:BinaryFile):
         temp_bytes = bytearray(data_size)
@@ -119,7 +118,7 @@ class Model():
             team_name_bytes_size = len(team_name_bytes)
             temp_bytes[sum1 : sum1 + team_name_bytes_size] = team_name_bytes
             sum1 += team_name_bytes_size
-        if temp_bytes>data_size:
+        if len(temp_bytes)>data_size:
             raise ValueError("The buffer for the text data its way too big for the reseved space")
         file.write_bytes(start_offset, temp_bytes)
 
@@ -138,7 +137,7 @@ class Model():
             nationality_bytes_size = len(nationality_bytes)
             temp_bytes[sum1 : sum1 + nationality_bytes_size] = nationality_bytes
             sum1 += nationality_bytes_size
-        if temp_bytes>data_size:
+        if len(temp_bytes)>data_size:
             raise ValueError("The buffer for the text data its way too big for the reseved space")
         file.write_bytes(start_offset, temp_bytes)
 
