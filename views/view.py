@@ -99,7 +99,7 @@ class View(Tk):
 
     def report_callback_exception(self, *args):
         err = traceback.format_exception(*args)
-        messagebox.showerror(self.appname + " Error Message", err)
+        messagebox.showerror(self.appname + " Error Message", " ".join(err))
 
 
     def main(self):
