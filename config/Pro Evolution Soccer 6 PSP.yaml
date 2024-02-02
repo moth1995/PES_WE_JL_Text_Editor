@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Pro Evolution Soccer 6 (Europe) - PSP - ULES00476"
+
+Game Data:
+    Base Address: 142621452
+    Total Stadiums: 36
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 285
+    Total Nationalities: 115
+
+SLXX Offsets:
+    Teams Offsets Table: 1731984
+    Teams Text Data Offset : 1726652
+    Teams Text Data Size: 5140
+
+    Nationalities Offsets Table: 1738520
+    Nationalities Text Data Offset: 1736720
+    Nationalities Text Data Size: 1800
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 725760
+    Stadiums Offsets Table 2: 1885064
+    Leagues Offsets Table 1: 728056
+    Leagues Offsets Table 2: 1887360
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"
