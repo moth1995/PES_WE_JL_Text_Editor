@@ -31,7 +31,7 @@ class View(Tk):
         hs = self.winfo_screenheight() # height of the screen
 
         self.iconbitmap(default=controller.resource_path("resources/pes_indie.ico"))
-
+        self.protocol("WM_DELETE_WINDOW", self.controller.save_settings_and_close)
         # calculate x and y coordinates for the Tk root window
         x = (ws/2) - (self.w/2)
         y = (hs/2) - (self.h/2)
