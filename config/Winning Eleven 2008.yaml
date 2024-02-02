@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 2008 - SLPM_668.85"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 320
+    Total Nationalities: 122
+
+SLXX Offsets:
+    Teams Offsets Table: 3177952
+    Teams Text Data Offset : 3169696
+    Teams Text Data Size: 8072
+
+    Nationalities Offsets Table: 3164048
+    Nationalities Text Data Offset: 3161376
+    Nationalities Text Data Size: 2672
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 1192128
+    Stadiums Offsets Table 2: 2428656
+    Leagues Offsets Table 1: 1194368
+    Leagues Offsets Table 2: 2430896
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

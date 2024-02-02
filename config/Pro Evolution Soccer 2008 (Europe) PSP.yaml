@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Pro Evolution Soccer 2008 - PSP - ULES00880"
+
+Game Data:
+    Base Address: 142621388
+    Total Stadiums: 0
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 320
+    Total Nationalities: 122
+
+SLXX Offsets:
+    Teams Offsets Table: 1905396
+    Teams Text Data Offset : 1899408
+    Teams Text Data Size: 5796
+
+    Nationalities Offsets Table: 1912588
+    Nationalities Text Data Offset: 1910692
+    Nationalities Text Data Size: 1896
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 0
+    Stadiums Offsets Table 2: 0
+    Leagues Offsets Table 1: 780088
+    Leagues Offsets Table 2: 1991136
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

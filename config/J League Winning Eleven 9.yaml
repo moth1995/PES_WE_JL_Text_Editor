@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "J League Winning Eleven 9 - SLPM_661.69"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 60
+    Stadium Name Lenght : 61
+    Total Leagues: 26
+    Total Teams: 235
+    Total Nationalities: 132
+
+SLXX Offsets:
+    Teams Offsets Table: 2693088
+    Teams Text Data Offset : 2684944
+    Teams Text Data Size: 7760
+
+    Nationalities Offsets Table: 2701072
+    Nationalities Text Data Offset: 2697024
+    Nationalities Text Data Size: 4048
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 871840
+    Stadiums Offsets Table 2: 2121184
+    Leagues Offsets Table 1: 875568
+    Leagues Offsets Table 2: 2124912
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

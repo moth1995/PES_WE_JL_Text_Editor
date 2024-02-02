@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 9 Japan - SLPM_660.09"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 263
+    Total Nationalities: 130
+
+SLXX Offsets:
+    Teams Offsets Table: 2763072
+    Teams Text Data Offset : 2754080
+    Teams Text Data Size: 8608
+
+    Nationalities Offsets Table: 2771408
+    Nationalities Text Data Offset: 2767456
+    Nationalities Text Data Size: 3952
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 645664
+    Stadiums Offsets Table 2: 1879776
+    Leagues Offsets Table 1: 647840
+    Leagues Offsets Table 2: 1881952
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

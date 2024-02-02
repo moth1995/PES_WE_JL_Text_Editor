@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 10 - SLPM_663.74"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 37
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 284
+    Total Nationalities: 117
+
+SLXX Offsets:
+    Teams Offsets Table: 2885824
+    Teams Text Data Offset : 2875872
+    Teams Text Data Size: 9568
+
+    Nationalities Offsets Table: 2894080
+    Nationalities Text Data Offset: 2890544
+    Nationalities Text Data Size: 3536
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 646432
+    Stadiums Offsets Table 2: 1857936
+    Leagues Offsets Table 1: 648800
+    Leagues Offsets Table 2: 1860304
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

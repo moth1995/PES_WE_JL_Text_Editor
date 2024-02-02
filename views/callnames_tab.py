@@ -1,15 +1,16 @@
 from tkinter import ttk, Listbox
+from views.custom_widget import Entry
 
 class CallnamesTab(ttk.Frame):
     def __init__(self, controller, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.controller = controller
         self.callnames_id_lbl = ttk.Label(self,text = "Callname ID: ")
-        self.callnames_id_box = ttk.Entry(self, width=4, state = "readonly")
+        self.callnames_id_box = Entry(self, width=4, state = "readonly")
         self.callnames_lbl = ttk.Label(self, text = "Name: ")
-        self.callnames_box = ttk.Entry(self, width=40)
+        self.callnames_box = Entry(self, width=40)
         self.callnames_file_id_lbl = ttk.Label(self, text = "File ID: ")
-        self.callnames_file_id_box = ttk.Entry(self, width=6)
+        self.callnames_file_id_box = Entry(self, width=6)
         self.callnames_afs_id_lbl = ttk.Label(self, text = "AFS ID: ")
         self.callnames_afs_id_cbox = ttk.Combobox(
             self, 
@@ -56,3 +57,8 @@ class CallnamesTab(ttk.Frame):
 
         self.callnames_list_box.place(x = 5, y = 20)
         self.callnames_list_box_sb.place(x = 310, y = 20, height = 550)
+
+    @property
+    def tab_name(self):
+        return "Callnames"
+

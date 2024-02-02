@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 9 Liveware Evolution - SLKA_253.59"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 233
+    Total Nationalities: 111
+
+SLXX Offsets:
+    Teams Offsets Table: 2733328
+    Teams Text Data Offset : 2726320
+    Teams Text Data Size: 6720
+
+    Nationalities Offsets Table: 2740192
+    Nationalities Text Data Offset: 2737232
+    Nationalities Text Data Size: 2960
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 647840
+    Stadiums Offsets Table 2: 1888864
+    Leagues Offsets Table 1: 650016
+    Leagues Offsets Table 2: 1891040
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

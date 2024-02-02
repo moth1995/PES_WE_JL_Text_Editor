@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "J League Winning Eleven 2007 - SLPM_668.10"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 62
+    Stadium Name Lenght : 61
+    Total Leagues: 39
+    Total Teams: 270
+    Total Nationalities: 128
+
+SLXX Offsets:
+    Teams Offsets Table: 2955760
+    Teams Text Data Offset : 2945648
+    Teams Text Data Size: 9648
+
+    Nationalities Offsets Table: 2964192
+    Nationalities Text Data Offset: 2960320
+    Nationalities Text Data Size: 3872
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 963008
+    Stadiums Offsets Table 2: 2099872
+    Leagues Offsets Table 1: 966928
+    Leagues Offsets Table 2: 2103792
+
+Callnames:
+    Name Lenght: 40
+    Encoding: "cp932"

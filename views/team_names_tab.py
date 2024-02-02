@@ -1,15 +1,16 @@
 from tkinter import ttk, Listbox
+from views.custom_widget import Entry
 
 class TeamNamesTab(ttk.Frame):
     def __init__(self, controller, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.controller = controller
         self.teamnames_id_lbl = ttk.Label(self,text = "Team ID: ")
-        self.teamnames_id_box = ttk.Entry(self, width=4, state = "readonly")
+        self.teamnames_id_box = Entry(self, width=4, state = "readonly")
         self.teamnames_abb_lbl = ttk.Label(self, text = "Short Name: ")
-        self.teamnames_abb_box = ttk.Entry(self, width=40)
+        self.teamnames_abb_box = Entry(self, width=40)
         self.teamnames_lbl = ttk.Label(self, text = "Full Name: ")
-        self.teamnames_box = ttk.Entry(self, width=40)
+        self.teamnames_box = Entry(self, width=40)
 
         self.teamnames_apply_btn = ttk.Button(
             self, 
@@ -39,3 +40,8 @@ class TeamNamesTab(ttk.Frame):
 
         self.teamnames_list_box.place(x = 5, y = 20)
         self.teamnames_list_box_sb.place(x = 310, y = 20 , height = 550)
+
+    @property
+    def tab_name(self):
+        return "Teams"
+

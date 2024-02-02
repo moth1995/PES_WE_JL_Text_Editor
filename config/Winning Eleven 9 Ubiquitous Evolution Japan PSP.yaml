@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 9 Ubiquitous Evolution Japan - PSP - ULJM05033"
+
+Game Data:
+    Base Address: 142621484
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 263
+    Total Nationalities: 130
+
+SLXX Offsets:
+    Teams Offsets Table: 1635084
+    Teams Text Data Offset : 1628400
+    Teams Text Data Size: 6372
+
+    Nationalities Offsets Table: 1642356
+    Nationalities Text Data Offset: 1639468
+    Nationalities Text Data Size: 2888
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 692512
+    Stadiums Offsets Table 2: 1869536
+    Leagues Offsets Table 1: 694688
+    Leagues Offsets Table 2: 1871712
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

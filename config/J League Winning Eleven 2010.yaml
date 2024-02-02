@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "J League Winning Eleven 2010 - SLPM_552.62"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 55
+    Stadium Name Lenght : 73
+    Total Leagues: 39
+    Total Teams: 278
+    Total Nationalities: 138
+
+SLXX Offsets:
+    Teams Offsets Table: 3224448
+    Teams Text Data Offset : 3213744
+    Teams Text Data Size: 10160
+
+    Nationalities Offsets Table: 3233376
+    Nationalities Text Data Offset: 3229168
+    Nationalities Text Data Size: 4208
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 1006608
+    Stadiums Offsets Table 2: 2225104
+    Leagues Offsets Table 1: 1010752
+    Leagues Offsets Table 2: 2229248
+
+Callnames:
+    Name Lenght: 40
+    Encoding: "cp932"

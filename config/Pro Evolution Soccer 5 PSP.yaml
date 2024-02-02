@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Pro Evolution Soccer 5 - PSP - ULES00160 v2.0"
+
+Game Data:
+    Base Address: 142621484
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 233
+    Total Nationalities: 111
+
+SLXX Offsets:
+    Teams Offsets Table: 1638252
+    Teams Text Data Offset : 1633936
+    Teams Text Data Size: 4124
+
+    Nationalities Offsets Table: 1643916
+    Nationalities Text Data Offset: 1642156
+    Nationalities Text Data Size: 1760
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 692640
+    Stadiums Offsets Table 2: 1875168
+    Leagues Offsets Table 1: 694816
+    Leagues Offsets Table 2: 1877344
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

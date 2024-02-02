@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "K League Winning Eleven 9 - SLKA_253.21"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 60
+    Stadium Name Lenght : 61
+    Total Leagues: 26
+    Total Teams: 235
+    Total Nationalities: 132
+
+SLXX Offsets:
+    Teams Offsets Table: 2660032
+    Teams Text Data Offset : 2652824
+    Teams Text Data Size: 6936
+
+    Nationalities Offsets Table: 2667472
+    Nationalities Text Data Offset: 2663968
+    Nationalities Text Data Size: 3504
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 873888
+    Stadiums Offsets Table 2: 2122592
+    Leagues Offsets Table 1: 877616
+    Leagues Offsets Table 2: 2126320
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

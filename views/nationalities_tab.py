@@ -1,15 +1,16 @@
 from tkinter import ttk, Listbox
+from views.custom_widget import Entry
 
 class NationalitiesTab(ttk.Frame):
     def __init__(self, controller, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.controller = controller
         self.nationalities_id_lbl = ttk.Label(self,text = "Nationality ID: ")
-        self.nationalities_id_box = ttk.Entry(self, width=4, state = "readonly")
+        self.nationalities_id_box = Entry(self, width=4, state = "readonly")
         self.nationalities_abb_lbl = ttk.Label(self, text = "Short Name: ")
-        self.nationalities_abb_box = ttk.Entry(self, width=40)
+        self.nationalities_abb_box = Entry(self, width=40)
         self.nationalities_lbl = ttk.Label(self, text = "Full Name: ")
-        self.nationalities_box = ttk.Entry(self, width=40)
+        self.nationalities_box = Entry(self, width=40)
 
         self.nationalities_apply_btn = ttk.Button(
             self, 
@@ -39,3 +40,8 @@ class NationalitiesTab(ttk.Frame):
 
         self.nationalities_list_box.place(x = 5, y = 20)
         self.nationalities_list_box_sb.place(x = 310, y = 20 , height = 550)
+
+    @property
+    def tab_name(self):
+        return "Nationalities"
+

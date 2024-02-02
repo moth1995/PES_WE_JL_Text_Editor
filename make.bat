@@ -1,11 +1,12 @@
 @echo on
 set PY_FILE=text_editor.py
 set PROJECT_NAME=PES WE J League Text Editor
-set VERSION=1.0.0
+set VERSION=1.1.0
 set FILE_VERSION=file_version_info.txt
-set EXTRA_ARG=
+set EXTRA_ARG=--add-data=resources/*;resources/ 
+set ICO_DIR=resources/pes_indie.ico
 
-pyinstaller --onefile --window "%PY_FILE%" --name "%PROJECT_NAME%_%VERSION%"  %EXTRA_ARG% --version-file "%FILE_VERSION%"
+pyinstaller --onefile --window "%PY_FILE%" --icon="%ICO_DIR%" --name "%PROJECT_NAME%_%VERSION%"  %EXTRA_ARG% --version-file "%FILE_VERSION%"
 
 Rem This command below is just specific for this script
 

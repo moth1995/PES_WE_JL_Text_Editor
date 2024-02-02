@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "J League Winning Eleven 2008 - SLPM_550.33"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 59
+    Stadium Name Lenght : 73
+    Total Leagues: 39
+    Total Teams: 281
+    Total Nationalities: 134
+
+SLXX Offsets:
+    Teams Offsets Table: 3172032
+    Teams Text Data Offset : 3161584
+    Teams Text Data Size: 10064
+
+    Nationalities Offsets Table: 3180736
+    Nationalities Text Data Offset: 3176704
+    Nationalities Text Data Size: 4032
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 997856
+    Stadiums Offsets Table 2: 2197792
+    Leagues Offsets Table 1: 1002304
+    Leagues Offsets Table 2: 2202240
+
+Callnames:
+    Name Lenght: 40
+    Encoding: "cp932"

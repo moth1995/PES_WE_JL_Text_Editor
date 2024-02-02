@@ -6,16 +6,15 @@ class BinaryFile():
     def file_bytes(self):
         try:
             with open(self.filename, "rb") as f: 
-                return bytearray(f.read()) 
+                return bytearray(f.read())
         except Exception:
             return bytearray()
-    
-    def write_bytes(self, offset:int, data:bytes):
+
+    def set_bytes(self, offset:int, data:bytes):
         with open(self.filename, "r+b") as f:
             f.seek(offset, 0)
             f.write(data)
     
     @property
     def size(self):
-        return (len(self.file_bytes))
-    
+        return len(self.file_bytes)

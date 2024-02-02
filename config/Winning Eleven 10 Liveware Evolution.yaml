@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 10 - SLKA_251.53"
+
+Game Data:
+    Base Address: 1046528
+    Total Stadiums: 36
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 285
+    Total Nationalities: 115
+
+SLXX Offsets:
+    Teams Offsets Table: 2995520
+    Teams Text Data Offset : 2987568
+    Teams Text Data Size: 7696
+
+    Nationalities Offsets Table: 3003264
+    Nationalities Text Data Offset: 3000256
+    Nationalities Text Data Size: 3008
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 775168
+    Stadiums Offsets Table 2: 1992976
+    Leagues Offsets Table 1: 777472
+    Leagues Offsets Table 2: 1995280
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"

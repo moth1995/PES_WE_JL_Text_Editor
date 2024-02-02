@@ -6,14 +6,17 @@ Game Data:
     Total Stadiums: 55
     Stadium Name Lenght : 73
     Total Leagues: 39
-    Total Teams: 270
+    Total Teams: 278
+    Total Nationalities: 138
 
 SLXX Offsets:
     Teams Offsets Table: 3193424
-    Teams Table Size: 4720
-    Teams Text Data Size: 9648
+    Teams Text Data Offset : 3182864
+    Teams Text Data Size: 10032
+
     Nationalities Offsets Table: 3202256
-    Nationalities Table Size: 1104
+    Nationalities Text Data Offset: 3198144
+    Nationalities Text Data Size: 4112
 
 OVER Offsets:
     Stadiums Offsets Table 1: 1002384

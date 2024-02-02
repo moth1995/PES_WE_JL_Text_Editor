@@ -1,13 +1,14 @@
 from tkinter import ttk, Listbox
+from views.custom_widget import Entry
 
 class LeaguesTab(ttk.Frame):
     def __init__(self, controller, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.controller = controller
         self.league_id_lbl = ttk.Label(self,text = "League ID: ")
-        self.league_id_box = ttk.Entry(self, width=4, state = "readonly")
+        self.league_id_box = Entry(self, width=4, state = "readonly")
         self.league_lbl = ttk.Label(self, text = "League Name: ")
-        self.league_box = ttk.Entry(self, width=40)
+        self.league_box = Entry(self, width=40)
         self.league_apply_btn = ttk.Button(
             self, 
             text = "Apply", 
@@ -32,3 +33,8 @@ class LeaguesTab(ttk.Frame):
 
         self.league_list_box.place(x = 5, y = 20)
         self.league_list_box_sb.place(x = 310, y = 20 , height = 550)
+
+    @property
+    def tab_name(self):
+        return "Leagues"
+

@@ -1,0 +1,29 @@
+Gui:
+    Game Name: "Winning Eleven 9 International - PSP - ULUS10056"
+
+Game Data:
+    Base Address: 142621484
+    Total Stadiums: 35
+    Stadium Name Lenght : 61
+    Total Leagues: 11
+    Total Teams: 233
+    Total Nationalities: 111
+
+SLXX Offsets:
+    Teams Offsets Table: 1638856
+    Teams Text Data Offset : 1634540
+    Teams Text Data Size: 4124
+
+    Nationalities Offsets Table: 1644520
+    Nationalities Text Data Offset: 1642760
+    Nationalities Text Data Size: 1760
+
+OVER Offsets:
+    Stadiums Offsets Table 1: 692640
+    Stadiums Offsets Table 2: 1875296
+    Leagues Offsets Table 1: 694816
+    Leagues Offsets Table 2: 1877472
+
+Callnames:
+    Name Lenght: 48
+    Encoding: "utf8"
